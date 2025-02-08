@@ -13,7 +13,7 @@ This repository contains my personal dotfiles managed with GNU Stow and dependen
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/dotfiles.git ~/dotfiles
+git clone https://github.com/ierso/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 ```
 
