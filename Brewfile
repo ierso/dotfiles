@@ -1,6 +1,7 @@
 # Brewfile for core development tools and dependencies
 
 # Core utilities
+brew "stow"                    # Symlink manager for dotfiles
 brew "bat"                     # Cat clone with syntax highlighting
 brew "eza"                     # Modern ls replacement
 brew "neovim"                  # Hyperextensible Vim-based text editor
