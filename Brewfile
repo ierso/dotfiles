@@ -34,7 +34,6 @@ brew "fzf"                     # Command-line fuzzy finder
 cask "wezterm"                 # GPU-accelerated terminal emulator
 
 # Fonts
-tap "homebrew/cask-fonts"      # Homebrew fonts tap
 cask "font-meslo-lg-nerd-font" # Meslo LG Nerd Font
 cask "font-symbols-only-nerd-font" # Symbols Only Nerd Font
 
