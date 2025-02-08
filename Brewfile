@@ -19,6 +19,7 @@ brew "sevenzip"                # File archiver with a high compression ratio
 brew "poppler"                 # PDF rendering library
 brew "node"                    # JavaScript runtime built on Chrome's V8 engine
 brew "lazygit"                 # Simple terminal UI for git commands
+brew "yq"                      # Command-line YAML, JSON, XML, CSV, and properties processor
 
 # Shell enhancements
 brew "powerlevel10k"           # Zsh theme
