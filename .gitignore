@@ -1,3 +1,18 @@
+# Neovim Configuration
+# Ignore the lazy-lock.json file in the Neovim configuration directory
 nvim/.config/nvim/lazy-lock.json
+
+# Tmux Plugins
+# Ignore all contents within tmux/.config/tmux/plugins/
+tmux/.config/tmux/plugins/*
+
+# Exclude the tpm/ directory from being ignored
+!tmux/.config/tmux/plugins/tpm/
+
+# Ensure all contents within tpm/ are tracked
+!tmux/.config/tmux/plugins/tpm/**
+
+# System Files
+# Ignore macOS system file
 **/.DS_Store
 
