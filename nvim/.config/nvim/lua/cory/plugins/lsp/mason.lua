@@ -1,8 +1,15 @@
 return {
 	"williamboman/mason.nvim",
+	version = "1.8.0",
 	dependencies = {
-		"williamboman/mason-lspconfig.nvim",
-		"WhoIsSethDaniel/mason-tool-installer.nvim",
+		{
+			"williamboman/mason-lspconfig.nvim",
+			version = "1.7.0",
+		},
+		{
+			"WhoIsSethDaniel/mason-tool-installer.nvim",
+			version = "1.4.0",
+		},
 	},
 	config = function()
 		-- import mason
@@ -27,14 +34,12 @@ return {
 		mason_lspconfig.setup({
 			-- list of servers for mason to install
 			ensure_installed = {
-				"ts_ls",
-				"html",
-				"cssls",
-				"tailwindcss",
-				"svelte",
-				"lua_ls",
-				"graphql",
-				"emmet_ls",
+				"html", -- html language server
+				"cssls", -- css language server
+				"tsserver", -- typescript language server
+				"graphql", -- graphql language server
+				"emmet_ls", -- emmet language server
+				"lua_ls", -- lua language server
 			},
 		})
 
@@ -44,6 +49,8 @@ return {
 				"stylua", -- lua formatter
 				"eslint_d", -- js linter
 			},
+			auto_update = false, -- disable auto update
+			run_on_start = true, -- run on startup
 		})
 	end,
 }
