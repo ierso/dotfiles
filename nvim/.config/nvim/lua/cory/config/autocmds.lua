@@ -1,8 +1,0 @@
--- Place for your autocommands
--- Example:
--- vim.api.nvim_create_autocmd("FileType", {
---   pattern = "lua",
---   callback = function()
---     -- do something when opening lua files
---   end,
--- })
