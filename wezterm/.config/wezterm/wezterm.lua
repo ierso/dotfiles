@@ -52,6 +52,8 @@ config.keys = {
 	{ key = "7", mods = "CMD", action = wezterm.action.SendString("\x027") },
 	{ key = "8", mods = "CMD", action = wezterm.action.SendString("\x028") },
 	{ key = "9", mods = "CMD", action = wezterm.action.SendString("\x029") },
+	-- enter tmux copy mode
+	{ key = "x", mods = "SHIFT|CMD", action = wezterm.action.SendString("\x02[") },
 }
 
 -- and finally, return the configuration to wezterm
